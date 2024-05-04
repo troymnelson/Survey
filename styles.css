@@ -1,0 +1,49 @@
+body {
+    background-color: rgb(0, 100, 127);
+  }
+  
+  #title, #description {
+    text-align: center;
+    margin: 1em auto;
+    color: white;
+  }
+  
+  label {
+    color: white;
+    margin: 1em auto;
+    width: 100%;
+  }
+   legend {
+     padding: 1em;
+     color: white;
+   }
+  
+  ::placeholder {
+    opacity: 0.7;
+    color: white;
+  }
+  input {
+    color: white;background-color: rgb(0, 100, 255);
+    margin: 1em auto;
+    width: 100%;
+    padding: 5px;
+  }
+  
+  
+  label[for='dropdown'] {
+    padding: 1em;
+  }
+  
+  input[type='checkbox'], #name {
+    width: unset;     vertical-align: middle;
+  
+  }
+  
+  div {
+    display: block;
+  }
+  label[for='comments'] {
+    display: block;
+  }
+  
+  
